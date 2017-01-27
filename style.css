@@ -1,13 +1,28 @@
+body {
+	background-color: #89cff0;
+}
+
 h1, h2 {
 	font-family: Helvetica, Arial, sans-serif;
+	background-color: yellow;
+	text-align: center;
 }
 
 p {
-	font-family: Georgia, serif;
-	color: gray;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: auto;
 }
 
 ul {
-	font-family: Georgia, serif;
-	color: gray;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+ul li {
+	list-style: none;
 }
