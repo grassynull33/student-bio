@@ -4,18 +4,23 @@ body {
 
 h1, h2 {
 	font-family: Helvetica, Arial, sans-serif;
-	background-color: yellow;
+	//background-color: yellow;
+	color: navy;
 	text-align: center;
 }
 
 p {
 	font-family: Helvetica, Arial, sans-serif;
 	text-align: center;
+	color: navy;
+	padding: 20px;
+    line-height: 1.8;
 }
 
 img {
 	display: block;
 	margin: auto;
+	margin-top: 30px;
 }
 
 ul {
@@ -25,4 +30,25 @@ ul {
 
 ul li {
 	list-style: none;
+}
+
+#main-section {
+	box-shadow: 0 0 3em white;
+	width: 50%;
+	margin: auto;
+}
+
+#header-box {
+	background-color: white;
+	padding: 10px;
+}
+
+#contact-box {
+	box-shadow: 0 0 3em black;
+	background-color: white;
+	color: navy;
+	width: 50%;
+	margin: auto;
+	margin-top: 0px;
+	padding: 10px;
 }
